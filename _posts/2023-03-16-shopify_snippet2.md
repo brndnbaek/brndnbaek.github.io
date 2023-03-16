@@ -7,7 +7,7 @@ tags: [Shopify, Snippet]
 ---
 Iterate through 'all' collection products and only pick first 3 that has .png image file.
 
-```liquid
+```
 {% assign count = 0 %}
 {% for product in collections['all'].products %}
   {% if count == 3 %}
